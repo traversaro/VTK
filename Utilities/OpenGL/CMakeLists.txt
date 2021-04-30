@@ -60,7 +60,6 @@ else ()
     COMPONENTS          ${opengl_components}
     OPTIONAL_COMPONENTS ${opengl_optional_components}
     TARGETS             ${opengl_targets}
-    INCLUDE_DIRS        OPENGL_INCLUDE_DIR
     LIBRARIES           OPENGL_LIBRARIES)
 
   cmake_policy(POP)
